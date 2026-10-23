@@ -54,7 +54,7 @@ export default function Home() {
             <div className="availability hero-availability"><i /> Available for new projects &amp; opportunities</div>
             <p className="hero-intro">Hi, I&apos;m</p>
             <h1>Rahul Kumar</h1>
-            <h2>Frontend Engineer</h2>
+            <h2>Software Engineer</h2>
             <p className="hero-lede">I build responsive, reliable, and maintainable web applications using React, Next.js, TypeScript, and modern JavaScript—with a focus on reusable components and clean user experiences.</p>
             <div className="hero-actions"><a className="button" href="#projects">Explore selected work <Icon name="arrow" /></a><a className="button button-secondary" href="/documents/rahul-kumar-resume.pdf" download><Icon name="download" /> Download résumé</a></div>
             <div className="social-links">
@@ -88,7 +88,7 @@ export default function Home() {
         <section className="section shell about" id="about">
           <div className="profile-card">
             <div className="portrait" aria-hidden="true"><span>RK</span><div className="portrait-grid" /></div>
-            <div className="profile-meta"><span>Rahul Kumar</span><small>Frontend Engineer · Bengaluru</small></div>
+            <div className="profile-meta"><span>Rahul Kumar</span><small>Software Engineer · Bengaluru</small></div>
             <div className="availability"><i /> Available for meaningful work</div>
           </div>
           <div className="about-copy">
@@ -131,11 +131,11 @@ export default function Home() {
         </section>
 
         <section className="contact shell" id="contact">
-          <div className="contact-copy"><p className="section-index">06 / LET&apos;S TALK</p><h2>Have a complex interface to build?</h2><p>I&apos;m open to frontend engineering opportunities where thoughtful UI, reusable systems, and reliable delivery matter.</p><div className="contact-links"><a href="mailto:rahulmca94@gmail.com"><Icon name="mail" /> rahulmca94@gmail.com</a><a href="https://www.linkedin.com/in/rahulmca94/" target="_blank" rel="noreferrer"><Icon name="linkedin" /> LinkedIn</a><a href="https://github.com/rahulkr94" target="_blank" rel="noreferrer"><Icon name="github" /> GitHub</a></div></div>
+          <div className="contact-copy"><p className="section-index">06 / LET&apos;S TALK</p><h2>Have a complex interface to build?</h2><p>I&apos;m open to software engineering opportunities where thoughtful UI, reusable systems, and reliable delivery matter.</p><div className="contact-links"><a href="mailto:rahulmca94@gmail.com"><Icon name="mail" /> rahulmca94@gmail.com</a><a href="https://www.linkedin.com/in/rahulmca94/" target="_blank" rel="noreferrer"><Icon name="linkedin" /> LinkedIn</a><a href="https://github.com/rahulkr94" target="_blank" rel="noreferrer"><Icon name="github" /> GitHub</a></div></div>
           <ContactForm />
         </section>
       </main>
-      <footer><div className="shell footer-inner"><p><strong>Rahul Kumar</strong> · Frontend Engineer · Bengaluru, India</p><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#top">Back to top ↑</a></div><small>© {new Date().getFullYear()} Rahul Kumar. Built with editorial discipline.</small></div></footer>
+      <footer><div className="shell footer-inner"><div className="footer-identity"><strong>Rahul Kumar</strong><span>Software Engineer · Bengaluru, India</span><small>© {new Date().getFullYear()}. All rights reserved.</small></div><a href="#top">Back to top ↑</a></div></footer>
     </>
   );
 }
