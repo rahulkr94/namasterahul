@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ContactForm } from "@/components/ContactForm";
 import { Header } from "@/components/Header";
 import { Icon } from "@/components/Icon";
@@ -87,7 +88,7 @@ export default function Home() {
 
         <section className="section shell about" id="about">
           <div className="profile-card">
-            <div className="portrait" aria-hidden="true"><span>RK</span><div className="portrait-grid" /></div>
+            <div className="portrait"><Image src="/images/rahul-kumar-portrait.jpg" alt="Rahul Kumar, Software Engineer" width={896} height={1200} sizes="(max-width: 720px) calc(100vw - 66px), (max-width: 1020px) 240px, 340px" /></div>
             <div className="profile-meta"><span>Rahul Kumar</span><small>Software Engineer · Bengaluru</small></div>
             <div className="availability"><i /> Available for meaningful work</div>
           </div>

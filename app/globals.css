@@ -100,8 +100,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .about { display: grid; grid-template-columns: 4.3fr 7.7fr; gap: 84px; align-items: start; }
 .profile-card { position: sticky; top: 115px; border: 1px solid var(--line); border-radius: 9px; padding: 16px; background: var(--surface); box-shadow: 0 8px 36px rgba(20,30,45,.05); }
 .portrait { position: relative; height: 390px; display: grid; place-items: center; overflow: hidden; border-radius: 5px; background: linear-gradient(145deg, var(--surface-soft), var(--surface-deep)); }
-.portrait > span { z-index: 2; display: grid; place-items: center; width: 142px; height: 142px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--blue) 38%, var(--line)); background: color-mix(in srgb, var(--surface) 82%, transparent); color: var(--blue); font: 400 52px var(--serif); box-shadow: 0 25px 50px rgba(25, 35, 55, .12); }
-.portrait-grid { position: absolute; inset: 0; background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 40px 40px; mask-image: radial-gradient(circle, black 15%, transparent 70%); opacity: .75; }
+.portrait > img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; }
 .profile-meta { display: flex; justify-content: space-between; align-items: baseline; padding: 18px 2px 12px; border-bottom: 1px solid var(--line); }.profile-meta span { font-family: var(--serif); font-size: 20px; }.profile-meta small { color: var(--muted); font-size: 10px; }
 .profile-card .availability { margin: 15px 2px 4px; }
 .about-copy h2, .section-heading h2, .github-section h2, .contact h2 { margin: 0; font: 400 clamp(40px, 4.4vw, 62px)/1.04 var(--serif); letter-spacing: -.037em; }
@@ -190,7 +189,6 @@ body { font-family: Inter, "Segoe UI", Arial, sans-serif; }
 .about { gap: 70px; }
 .profile-card { background: var(--surface); border-radius: 18px; }
 .portrait { background: #0b1016; }
-.portrait > span { border: 2px solid var(--blue); background: var(--surface); color: var(--blue); font-family: var(--mono); font-weight: 700; }
 .about-copy h2, .section-heading h2, .github-section h2, .contact h2 { font-family: var(--sans); font-weight: 750; letter-spacing: -.035em; }
 .discipline-grid div { background: var(--surface); }
 
